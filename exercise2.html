@@ -1,5 +1,9 @@
-<!---
-Write a Web page that includes:
+<!--
+    ITNW-1059 Introduction to WWW Authoring, HTML and CSS
+    Bob Kozdemba
+    bkozdemba@gmail.com
+
+Exercise 2 - Write a Web page that includes:
 
 The DOCTYPE I specified to use in this class at the very top line of your page.
 Meta tags in the head section of the document.
@@ -8,18 +12,43 @@ Demonstrates the use of the <header>, <section>, <article> and <footer> elements
 The article section on your page should demonstrate the use of the paragraph tag, use of the <h1> tag, use of a horizontal rule, and links to three websites.
 You will be graded on proper placement and use of elements.
 Name your file using the .html extension, and test your file on your computer (open the file in a Web browser).
->
+-->
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Execercise 2</title>
+    <title>Bob Kozdemba - Intro to Web Authoring</title>
 </head>
+
 <body>
-    <h1>Intro to Web Authoring</h1>
-    <h2>Bob Kozdemba</h2>
+    <article>
+        <h1>This h1 is inside an article.</h1>
+        <section>
+            <h2>This h2 is inside the first section.</h2>
+            <p>
+                This text is enclosed within a paragraph. There should be a blank line above and below the paragraph.
+            </p>
+            <p>
+                Second paragraph.
+            </p>
+        </section>
+        <section>
+            <h2>This h2 is inside the second section.</h2>
+            <p>
+                A paragraph inside the 2nd section.
+            </p>
+        </section>
+        This sentence is inside an article but outside of the section.
+    </article>
+
+    <footer>
+        This sentence is inside the footer.
+        <p> The start of a paragraph inside the same footer.
+    </footer>
 </body>
+
 </html>
