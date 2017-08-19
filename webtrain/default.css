@@ -1,13 +1,14 @@
 h1 {
   font-family: sans-serif;
-  color: #669999
+  color: #222299
 }
 
 body {
   margin-right: 75px;
   margin-left: 75px;
   margin-top: 50px;
-  margin-bottom: 25
+  margin-bottom: 25;
+  background-image: linear-gradient(white, #DDEAFF)
 }
 
 img {
@@ -32,5 +33,5 @@ h3 {
 }
 
 footer {
-  color: lightgrey
+  color: #BABABA
 }
