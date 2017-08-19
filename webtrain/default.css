@@ -1,37 +1,37 @@
 h1 {
-  font-family: sans-serif;
-  color: #222299
+    font-family: sans-serif;
+    color: #222299
 }
 
 body {
-  margin-right: 75px;
-  margin-left: 75px;
-  margin-top: 50px;
-  margin-bottom: 25;
-  background-image: linear-gradient(white, #DDEAFF)
+    margin-right: 75px;
+    margin-left: 75px;
+    margin-top: 50px;
+    margin-bottom: 25;
+    background-image: linear-gradient(white, #6677cc)
 }
 
 img {
-  margin: 0 20px 0 0
+    margin: 0 20px 0 0
 }
 
 h1 img {
-  margin-bottom: -50px
+    margin-bottom: -50px
 }
 
 article {
-  margin-top: 50px
+    margin-top: 50px
 }
 
 h2 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 h3 {
-  font-family:  Arial, Helvetica, sans-serif;
-  color: #555555
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555555
 }
 
 footer {
-  color: #BABABA
+    color: #BABABA
 }
